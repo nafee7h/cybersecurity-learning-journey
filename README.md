@@ -1,4 +1,3 @@
-# cybersecurity-portfolio
 # Cybersecurity Portfolio
 
 ## 🚀 About Me
