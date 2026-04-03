@@ -45,4 +45,4 @@ So I built this tool to actually see how packets move in real time.
 ## ▶️ How to Run
 
 ```bash
-sudo python3 tcp.py
+sudo python3 packet_analyzer.py
