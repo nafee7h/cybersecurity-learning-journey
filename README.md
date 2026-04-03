@@ -1,23 +1,64 @@
-# Cybersecurity Portfolio
+# 🔐 Cybersecurity Learning Journey
 
-## 🚀 About Me
-I’m a cybersecurity student focused on penetration testing and web security.
-I document my hands-on learning through labs and real-world scenarios.
+I am documenting my journey into cybersecurity by building projects, solving labs, and sharing what I learn consistently.
 
-## 🧠 Skills I'm Building
-- Enumeration 
-- Web Application Testing 
-- Linux & Networking Basics
-- Vulnerability Analysis
+---
 
-## 🛠️ Platforms
-- Hack The Box (Starting Point - Tier 0 & 1 completed)
-- try hack me
+## 🚀 Projects
 
-## 📂 Writeups
+- Packet Analyzer (Python + Scapy)  
+  → Captures live TCP traffic and visualizes the 3-way handshake  
+  → Shows source/destination, ports, and services  
+  → ./projects/packet-analyzer  
 
-### Hack The Box
-- (Coming soon)
+---
+
+## 📚 What I'm Learning
+
+- Networking fundamentals (TCP/IP, ports, protocols)  
+- Packet analysis and traffic inspection  
+- Linux basics for security  
+- Web security fundamentals  
+
+---
+
+## 🧪 Platforms I Use
+
+- Hack The Box (HTB)  
+  → Completed Starting Point (Tier 0 & 1)  
+  → Practicing real-world penetration testing  
+
+- TryHackMe  
+  → Learning structured cybersecurity concepts  
+
+- Hackviser  
+  → Exploring hands-on security challenges  
+
+---
+
+## 📈 Daily Progress
+
+I consistently document what I learn and build.
+
+- Day 1 → Built a Packet Analyzer using Scapy  
+- (More updates coming...)
+
+---
+
+## 🛠 Tech Stack
+
+- Python  
+- Scapy  
+- Linux  
+
+---
 
 ## 🎯 Goal
-To become a skilled penetration tester by consistently practicing, solving labs, and documenting everything.
+
+To become a skilled cybersecurity professional and contribute as a Microsoft Student Ambassador.
+
+---
+
+## 📌 Note
+
+This repository reflects my learning journey — focusing on practical, hands-on experience rather than just theory.
