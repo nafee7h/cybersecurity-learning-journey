@@ -1,10 +1,8 @@
-# 🚀 Simple Network Packet Analyzer (Python + Scapy)
+# 🚀 Network Packet Analyzer (Python + Scapy)
 
 ## 📌 Overview
-This project is a basic network packet analyzer built using Python and Scapy.  
-It captures live TCP traffic and helps visualize how communication happens between systems.
-
----
+This project is a basic network packet analyzer built using Python and Scapy.
+It captures live TCP traffic and helps visualize communication between systems.
 
 ## ⚙️ Features
 - Capture live TCP packets
@@ -13,44 +11,35 @@ It captures live TCP traffic and helps visualize how communication happens betwe
 - Visualize TCP 3-way handshake
 - Map ports to services (HTTP, HTTPS, SSH, DNS)
 
----
-
-##📸 Sample Output
-
+## 📸 Sample Output
 [SYN] 10.0.2.15 → 142.251.220.14 | 35836 → http  
 [SYN-ACK] 142.251.220.14 → 10.0.2.15 | 80 → Unknown  
-[ACK] 10.0.2.15 → 142.251.220.14 | 35836 → http
-
----
+[ACK] 10.0.2.15 → 142.251.220.14 | 35836 → http  
 
 ## 🧠 Why I Built This
-While learning networking, concepts like the TCP 3-way handshake felt theoretical.  
-So I built this tool to actually see how packets move in real time.
-
----
+I wanted to move beyond theory and observe real packet flow,
+especially how SYN, SYN-ACK, and ACK packets appear in real network communication.
 
 ## ⚠️ Challenges Faced
-- Syntax errors while coding
-- Logic issues in identifying TCP flags
-- Understanding packet structure in Scapy
-
----
+- Syntax errors while coding  
+- Logic issues in identifying TCP flags  
+- Understanding packet structure in Scapy  
 
 ## ✅ What I Learned
-- How TCP handshake works in real traffic
-- Basics of packet sniffing
-- Using Scapy for network analysis
-- Debugging real-world issues
-
----
+- How TCP handshake works in real traffic  
+- Basics of packet sniffing  
+- Using Scapy for network analysis  
+- Debugging real-world issues  
 
 ## 🛠️ Tech Stack
-- Python
-- Scapy
+- Python  
+- Scapy  
 
----
+## 📦 Requirements
+pip install scapy
 
 ## ▶️ How to Run
-
-```bash
 sudo python3 packet_analyzer.py
+
+## 📌 Note
+This is a beginner-level project and part of my cybersecurity learning journey.
