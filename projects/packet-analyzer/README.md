@@ -13,6 +13,12 @@ It captures live TCP traffic and helps visualize how communication happens betwe
 - Visualize TCP 3-way handshake
 - Map ports to services (HTTP, HTTPS, SSH, DNS)
 
+##📸 Sample Output
+
+[SYN] 10.0.2.15 → 142.251.220.14 | 35836 → http  
+[SYN-ACK] 142.251.220.14 → 10.0.2.15 | 80 → Unknown  
+[ACK] 10.0.2.15 → 142.251.220.14 | 35836 → http
+
 ---
 
 ## 🧠 Why I Built This
